@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #f2f2f2;
+    color: #000000;
+    font-size: 12px;
+}
+
+header{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+header a{
+    color: #5ef11a;
+    font-weight: 300;
+    margin-right: 40px; 
+}
+
+.container{
+  height: 100vh;
+  width: 100vh;
+  margin-top: -50px;
+}
+
+.container .list .list-item{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container .list .list-item img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;   
+    filter: brightness(50%);
+}
+
+.container .list .list-item .content{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-right: 30%;
+    color: #eee;
+    text-shadow: 0 5px 10px #0004;
+    
+}
+
+
+.container .list .list-item .title{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container .list .list-item .description{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .list .list-item .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    gap: 20px;
+}
+
+.container .list .list-item .buttons button{
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-weight: 600;
+    cursor: pointer;    
+}
+
+.container .list .list-item .buttons button:nth-child(1){
+    background-color: transparent;
+    border: 1px solid #5ef11a;
+    color: #5ef11a;
+}
+
+.container .list .list-item .buttons button:nth-child(2):hover{
+    background: #5ef11a;
+}
+
+.container .thumb{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.container.thumb .thumb-item{
+    width: 135px;
+    height: 200px;
+    position: relative;
+}
+
+.container .thumb .thumb-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter : brightness(80%);
+    border-radius: 10px;
+
+}
+
+.container .thumb .content{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;   
+    color: #eee;
+}
+
+.container .arrows{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    width: 300px;
+    gap: 20px;
+}
+
+.container .arrows button{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: #eee4;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.3;
+
+}
+
+.container .arrows button:hover{
+    background-color: #eee;
+    color: #000000;
+    transition: 0.7;
+}
