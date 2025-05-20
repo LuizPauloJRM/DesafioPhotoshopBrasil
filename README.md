@@ -117,9 +117,9 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 Navegue até o diretório do projeto:
 
 bash
-Copiar
-Editar
+```
 cd nome-do-projeto
+```
 Abra o arquivo index.html no navegador:
 
 Clique duas vezes no arquivo index.html, ou
