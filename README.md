@@ -79,8 +79,7 @@ Os botões .next e .back manipulam a galeria.
 O primeiro item é movido para o fim (ou o último para o início), criando o efeito de rotação.
 
 js
-Copiar
-Editar
+
 btnNext.onclick = () => moveItemsOnClick('next')
 btnBack.onclick = () => moveItemsOnClick('back')
 
@@ -146,8 +145,7 @@ Os botões .next e .back manipulam a galeria.
 O primeiro item é movido para o fim (ou o último para o início), criando o efeito de rotação.
 
 js
-Copiar
-Editar
+
 btnNext.onclick = () => moveItemsOnClick('next')
 btnBack.onclick = () => moveItemsOnClick('back')
 
@@ -193,8 +191,7 @@ Este projeto está sob a licença MIT.
 Sinta-se à vontade para estudar, modificar e compartilhar.
 
 yaml
-Copiar
-Editar
+
 
 ---
 
