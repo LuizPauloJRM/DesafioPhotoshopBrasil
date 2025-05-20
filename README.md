@@ -107,3 +107,107 @@ Botões com aparência moderna
 
 Miniaturas redondas e destacadas
 
+ Como Rodar o Projeto Localmente
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
+
+bash
+Copiar
+Editar
+cd nome-do-projeto
+Abra o arquivo index.html no navegador:
+
+Clique duas vezes no arquivo index.html, ou
+
+Use uma extensão como Live Server (VS Code) para rodar localmente.
+
+📜 Explicação do Funcionamento (passo a passo)
+🎯 1. Estrutura HTML
+A página principal possui:
+
+Um header com links de navegação
+
+Um main com duas seções principais:
+
+.list: onde ficam as imagens em destaque
+
+.thumb: onde ficam as miniaturas sincronizadas
+
+🧠 2. Lógica JavaScript
+No script.js:
+
+Os botões .next e .back manipulam a galeria.
+
+O primeiro item é movido para o fim (ou o último para o início), criando o efeito de rotação.
+
+js
+Copiar
+Editar
+btnNext.onclick = () => moveItemsOnClick('next')
+btnBack.onclick = () => moveItemsOnClick('back')
+
+function moveItemsOnClick(type){
+    let listItems = document.querySelectorAll('.list .list-item')
+    let thumbItems = document.querySelectorAll('.thumb .thumb-item')
+
+    if(type === 'next'){
+        list.appendChild(listItems[0])
+        thumb.appendChild(thumbItems[0])
+    } else {
+        list.prepend(listItems[listItems.length -1])
+        thumb.prepend(thumbItems[thumbItems.length -1])
+    }
+}
+🎨 3. Estilo com CSS
+O CSS aplica:
+
+Layout flexível e centralizado
+
+Efeitos com hover, filter, brightness
+
+Botões com aparência moderna
+
+Miniaturas redondas e destacadas
+
+📌 Melhorias Futuras
+🔐 Sistema de login para participantes
+
+🏆 Rankings dinâmicos com dados reais
+
+🔎 Filtro por categorias ou autores
+
+☁️ Hospedagem do projeto (Netlify/Vercel)
+
+👨‍💻 Autor
+Desenvolvido por Luiz Paulo Medeiros da Cunha Júnior
+LinkedIn
+Portfólio (opcional)
+
+📝 Licença
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para estudar, modificar e compartilhar.
+
+yaml
+Copiar
+Editar
+
+---
+
+Se quiser, posso:
+- Adaptar com seu **link do GitHub**
+- Criar um **badge de preview online** com Vercel ou Netlify
+- Traduzir para inglês se for usar internacionalmente
+
+Quer que eu gere o `README.md` com seu usuário/link reais?
+
+
+
+
+
+
+
