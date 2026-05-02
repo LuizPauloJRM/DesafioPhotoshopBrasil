@@ -1,5 +1,5 @@
 # DesafioPhotoshopBrasil
-Site desenvolvido para desafios Adobe Photoshop Brasil , todos partiipante terao acesso atraves de um login onde poderao participar de desafios photoshop bras
+Site desenvolvido para desafios Adobe Photoshop Brasil , todos partiipante terao acesso atraves de um login onde poderao participar de Desafios Photoshop Brasil
 #  Galeria Interativa - Desafio Photoshop Brasil
 
 Este é um projeto front-end desenvolvido com **HTML, CSS e JavaScript puro**, com o objetivo de praticar manipulação da DOM, criação de layouts modernos e navegação interativa por imagens.
