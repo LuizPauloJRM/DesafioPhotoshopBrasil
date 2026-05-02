@@ -12,12 +12,12 @@ A aplicação simula uma **galeria de desafios de design**, inspirada em trabalh
 
 ##  Funcionalidades
 
-- ✅ Galeria com carrossel de imagens em destaque
-- ✅ Miniaturas sincronizadas com o item principal
-- ✅ Navegação por botões de "próximo" e "voltar"
-- ✅ Layout 100% responsivo
-- ✅ Estilização moderna com foco em UI/UX
-- ✅ Lógica de manipulação do DOM com JavaScript puro
+-  Galeria com carrossel de imagens em destaque
+-  Miniaturas sincronizadas com o item principal
+-  Navegação por botões de "próximo" e "voltar"
+-  Layout 100% responsivo
+-  Estilização moderna com foco em UI/UX
+-  Lógica de manipulação do DOM com JavaScript puro
 
 ---
 
