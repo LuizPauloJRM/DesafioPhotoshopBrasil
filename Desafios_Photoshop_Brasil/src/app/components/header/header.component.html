@@ -1,4 +1,36 @@
 <header class="app-header">
   <!--Menu  e imagem logo -->
   <!--<img  ngSrc="./assets/logo.png" width="250" height="200"/>-->
+
+<nav [class.scrolled]="isScrolled()">
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <a routerLink="/" class="logo">
+
+    </a>
+
+    <!-- LINKS -->
+    <ul class="nav-links" [class.open]="menuOpen()">
+      <li><a routerLink="/"          routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="closeMenu()">Home</a></li>
+      <li><a routerLink="/desafios"  routerLinkActive="active" (click)="closeMenu()">Desafios</a></li>
+      <li><a routerLink="/rankings"  routerLinkActive="active" (click)="closeMenu()">Rankings</a></li>
+      <li><a routerLink="/regras"    routerLinkActive="active" (click)="closeMenu()">Regras</a></li>
+      <li class="divisor"></li>
+      <li><a routerLink="/entrar"    routerLinkActive="active" (click)="closeMenu()">Entrar</a></li>
+      <li><a routerLink="/cadastrar" routerLinkActive="active" class="link-cadastrar" (click)="closeMenu()">Cadastrar</a></li>
+    </ul>
+
+    <!-- nav -->
+    <button class="hamburger" [class.open]="menuOpen()" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</nav>
+
+<!-- OVERLAY ESCURO NO MOBILE -->
+<div class="overlay" [class.visible]="menuOpen()" (click)="closeMenu()"></div>
 </header>

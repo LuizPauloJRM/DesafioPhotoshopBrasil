@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import {HomeComponent} from "./components/home/home.component";
-
+//Rotas da aplicação declaração das rotas
 export const routes: Routes = [
   {
     path:"",
