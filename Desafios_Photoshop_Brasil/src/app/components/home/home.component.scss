@@ -1,3 +1,10 @@
+main{
+  display:flex;
+  flex-direction:column;
+  gap: 84px;
+
+  }
+
 //Main section
 .main-section{
   display: flex;
@@ -12,11 +19,10 @@
   span {
       font-size: 20px;
       font-weight: 700;
-
     }
 
   h1{
-      font-size: 72px;
+      font-size: 45px;
       font-weight: 900;
     }
 
@@ -39,12 +45,14 @@
     }
 
    p{
-     font-size: 40px;
+     font-size: 20px;
      }
-
-
-
   }
+.btnGaleria{
+  display:flex;
+  align-items:center;
+  }
+
 @media (min-width:1080px){
     .main-section{
         flex-direction:row;
