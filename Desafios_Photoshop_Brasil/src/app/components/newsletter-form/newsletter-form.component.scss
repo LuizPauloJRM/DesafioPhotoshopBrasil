@@ -1,0 +1,27 @@
+.inspiracao-section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    background:-webkit-linear-gradient(180deg,#66FF66,#00CC00);
+    padding: 40px 70px;
+  }
+  h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    }
+p{
+  font-size: 16px;
+  font-weight: 400;
+  color:white;
+  }
+
+
+@media (min-width: 1080px){
+  .form-section{
+    flex-direction:row;
+    justify-content:flex-start;
+
+    }
+  }

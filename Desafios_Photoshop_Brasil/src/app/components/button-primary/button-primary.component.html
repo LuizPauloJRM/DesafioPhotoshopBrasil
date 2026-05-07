@@ -2,9 +2,11 @@
 <!--Ao click chamo a function submit-->
 <!--Variavel []  funcao ()-->
 
-<button (click)="submit()" [class]="'btn'+variant" [disabled]="disabled" >
-
-
+<button
+  (click)="submit()"
+  [ngClass]="['btn', variant]"
+  [disabled]="disabled"
+>
   <span *ngIf="!loading">{{ btnText }}</span>
   <span *ngIf="loading">Carregando</span>
 </button>

@@ -8,7 +8,7 @@ type BtnVariants = "primary" | "secoundary";
   standalone: true,
   imports: [CommonModule],
   templateUrl: './button-primary.component.html',
-  styleUrl: './button-primary.component.scss'
+  styleUrls: ['./button-primary.component.scss']
 })
 export class ButtonPrimaryComponent {
   @Input("btn-text") btnText: string = "";
