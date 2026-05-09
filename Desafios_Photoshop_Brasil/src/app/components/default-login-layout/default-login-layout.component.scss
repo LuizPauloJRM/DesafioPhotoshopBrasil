@@ -12,6 +12,16 @@ main{
     background:#D3D3D3;
 
     flex-grow: 1;
+     img {
+
+             /* Ajustes de tamanho */
+             width: 100%;           /* Ocupa a largura disponível... */
+             max-width: 450px;      /* ...mas não passa de 450px (tamanho padrão bom) */
+             height: auto;          /* Mantém a proporção da imagem */
+
+             border-radius: 8px;    /* Opcional: deixa as bordas levemente arredondadas */
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Opcional: dá profundidade */
+         }
     }
   .form-section{
     flex-grow: 0.3;

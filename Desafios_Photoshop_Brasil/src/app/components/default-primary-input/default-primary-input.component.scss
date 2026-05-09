@@ -4,14 +4,19 @@
   text-align:start;
 
   .input-content{
-    width:100%
+    width:100%;
     border-radius:8px;
+    display:flex;
 
-    .icon{
+
+    /*.icon{
       padding:12px;
-      
-      }
+        img{
+          heigth: 20px;
+          }
+      }*/
     }
+
   input{
     border:none;
     border-radius: 8px;

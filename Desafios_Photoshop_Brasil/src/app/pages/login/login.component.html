@@ -9,7 +9,22 @@
 
   <form [formGroup]="loginForm">
     <!--Inputs-->
-    <app-default-primary-input></app-default-primary-input>
+    <app-default-primary-input
+      formControlName="email"
+      inputName="email"
+      type="email"
+      label="Email"
+      placeholder="Digite seu email">
+    </app-default-primary-input>
+
+    <app-default-primary-input
+      formControlName="password"
+      inputName="password"
+      type="password"
+      label="Senha"
+      placeholder="Digite sua senha">
+    </app-default-primary-input>
+
   </form>
 
 </app-default-login-layout>
