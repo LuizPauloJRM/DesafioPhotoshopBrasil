@@ -2,17 +2,79 @@
 
 <!--http://localhost:4200/-->
 <main>
-  <section class="main-section">
-    <div class="headline">
-      <span>Uma história marcada</span>
-      <!--Descrição sobre-->
-      <h1>Explore o mundo DPB</h1>
-      <h3>Embarque em uma jornada de criatividade e desafios únicos ,onde a arte digital se encontra com a imaginação  sem limites.</h3>
 
+  <section class="main-section">
+   <!-- <div class="headline">-->
+     <!-- <span>Uma história marcada</span>-->
+      <!--Descrição sobre-->
+      <!--<h1>Explore o mundo DPB</h1>
+      <h3>Embarque em uma jornada de criatividade e desafios únicos ,onde a arte digital se encontra com a imaginação  sem limites.</h3>-->
+      <!--</div>-->
       <!--Imagem do main section-->
-      <img ngSrc="/assets/principal.png" width="669" height="536">
+      <!--<img ngSrc="/assets/principal.png" width="669" height="536">-->
+    <!--</div>-->
+
+    <!--CAROUSEL-->
+    <div class="carousel" id="carousel">
+
+      <div class="slide slide-1 active">
+        <div class="hero-content">
+          <div class="hero-badge"><span></span> Nova temporada 2025</div>
+          <h1 class="hero-title">Explore o mundo<br><em>DPB</em></h1>
+          <p class="hero-sub">Embarque em uma jornada de criatividade e desafios únicos, onde a arte digital se encontra com a imaginação sem limites.</p>
+          <div class="hero-cta">
+            <a href="#desafios" class="btn btn-primary">Ver Desafios</a>
+            <a href="#votacao" class="btn btn-ghost">Deslize e veja mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-2">
+        <div class="hero-content">
+          <div class="hero-badge"><span></span> 1º Desafio DPB 2025</div>
+          <h1 class="hero-title">Uma história<br><em>marcada</em></h1>
+          <p class="hero-sub">Use sua criatividade no Photoshop e faça o que quiser com a imagem base. A girafa espera por você!</p>
+          <div class="hero-cta">
+            <a href="#detail" class="btn btn-primary">Participar Agora</a>
+            <a href="#" class="btn btn-ghost">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-3">
+        <div class="hero-content">
+          <div class="hero-badge"><span></span> Votação aberta</div>
+          <h1 class="hero-title">Vote nas<br><em>melhores artes</em></h1>
+          <p class="hero-sub">Explore a diversidade de estilos e talentos — uma experiência visual que inspira criatividade e celebra a imaginação.</p>
+          <div class="hero-cta">
+            <a href="#votacao" class="btn btn-primary">Votar Agora</a>
+            <a href="#" class="btn btn-ghost">Ver Ranking</a>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+    <button class="carousel-arrow carousel-prev" id="prev">&#8592;</button>
+    <button class="carousel-arrow carousel-next" id="next">&#8594;</button>
+
   </section>
+
+
+
+  <div class="carousel-dots" id="dots">
+    <button class="dot active" data-i="0"></button>
+    <button class="dot" data-i="1"></button>
+    <button class="dot" data-i="2"></button>
+  </div>
+  <div class="year-stamp">2025</div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+
+
   <!--Sessão de desafios-->
   <section class="desafios-section">
     <div class="desafios-cards">
