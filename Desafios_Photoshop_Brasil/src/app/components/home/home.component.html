@@ -1,98 +1,187 @@
 <app-header></app-header>
 
 <!--http://localhost:4200/-->
-<main>
+<section class="hero">
+  <div class="carousel" id="carousel">
 
-  <section class="main-section">
-   <!-- <div class="headline">-->
-     <!-- <span>Uma história marcada</span>-->
-      <!--Descrição sobre-->
-      <!--<h1>Explore o mundo DPB</h1>
-      <h3>Embarque em uma jornada de criatividade e desafios únicos ,onde a arte digital se encontra com a imaginação  sem limites.</h3>-->
-      <!--</div>-->
-      <!--Imagem do main section-->
-      <!--<img ngSrc="/assets/principal.png" width="669" height="536">-->
-    <!--</div>-->
-
-    <!--CAROUSEL-->
-    <div class="carousel" id="carousel">
-
-      <div class="slide slide-1 active">
-        <div class="hero-content">
-          <div class="hero-badge"><span></span> Nova temporada 2025</div>
-          <h1 class="hero-title">Explore o mundo<br><em>DPB</em></h1>
-          <p class="hero-sub">Embarque em uma jornada de criatividade e desafios únicos, onde a arte digital se encontra com a imaginação sem limites.</p>
-          <div class="hero-cta">
-            <a href="#desafios" class="btn btn-primary">Ver Desafios</a>
-            <a href="#votacao" class="btn btn-ghost">Deslize e veja mais</a>
-          </div>
+    <div class="slide slide-1 active">
+      <div class="hero-content">
+        <div class="hero-badge"><span></span> Nova temporada 2025</div>
+        <h1 class="hero-title">Explore o mundo<br><em>DPB</em></h1>
+        <p class="hero-sub">Embarque em uma jornada de criatividade e desafios únicos, onde a arte digital se encontra
+          com a imaginação sem limites.</p>
+        <div class="hero-cta">
+          <a href="#desafios" class="btn btn-primary">Ver Desafios</a>
+          <a href="#votacao" class="btn btn-ghost">Deslize e veja mais</a>
         </div>
       </div>
-
-      <div class="slide slide-2">
-        <div class="hero-content">
-          <div class="hero-badge"><span></span> 1º Desafio DPB 2025</div>
-          <h1 class="hero-title">Uma história<br><em>marcada</em></h1>
-          <p class="hero-sub">Use sua criatividade no Photoshop e faça o que quiser com a imagem base. A girafa espera por você!</p>
-          <div class="hero-cta">
-            <a href="#detail" class="btn btn-primary">Participar Agora</a>
-            <a href="#" class="btn btn-ghost">Saiba mais</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="slide slide-3">
-        <div class="hero-content">
-          <div class="hero-badge"><span></span> Votação aberta</div>
-          <h1 class="hero-title">Vote nas<br><em>melhores artes</em></h1>
-          <p class="hero-sub">Explore a diversidade de estilos e talentos — uma experiência visual que inspira criatividade e celebra a imaginação.</p>
-          <div class="hero-cta">
-            <a href="#votacao" class="btn btn-primary">Votar Agora</a>
-            <a href="#" class="btn btn-ghost">Ver Ranking</a>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <button class="carousel-arrow carousel-prev" id="prev">&#8592;</button>
-    <button class="carousel-arrow carousel-next" id="next">&#8594;</button>
+    <div class="slide slide-2">
+      <div class="hero-content">
+        <div class="hero-badge"><span></span> 1º Desafio DPB 2025</div>
+        <h1 class="hero-title">Uma história<br><em>marcada</em></h1>
+        <p class="hero-sub">Use sua criatividade no Photoshop e faça o que quiser com a imagem base. A girafa espera
+          por você!</p>
+        <div class="hero-cta">
+          <a href="#detail" class="btn btn-primary">Participar Agora</a>
+          <a href="#" class="btn btn-ghost">Saiba mais</a>
+        </div>
+      </div>
+    </div>
 
-  </section>
+    <div class="slide slide-3">
+      <div class="hero-content">
+        <div class="hero-badge"><span></span> Votação aberta</div>
+        <h1 class="hero-title">Vote nas<br><em>melhores artes</em></h1>
+        <p class="hero-sub">Explore a diversidade de estilos e talentos — uma experiência visual que inspira
+          criatividade e celebra a imaginação.</p>
+        <div class="hero-cta">
+          <a href="#votacao" class="btn btn-primary">Votar Agora</a>
+          <a href="#" class="btn btn-ghost">Ver Ranking</a>
+        </div>
+      </div>
+    </div>
 
+  </div>
 
+  <button class="carousel-arrow carousel-prev" id="prev">&#8592;</button>
+  <button class="carousel-arrow carousel-next" id="next">&#8594;</button>
 
   <div class="carousel-dots" id="dots">
     <button class="dot active" data-i="0"></button>
     <button class="dot" data-i="1"></button>
     <button class="dot" data-i="2"></button>
   </div>
+
   <div class="year-stamp">2025</div>
 
   <div class="scroll-hint">
     <div class="scroll-line"></div>
     <span>Scroll</span>
   </div>
+</section>
 
 
-  <!--Sessão de desafios-->
-  <section class="desafios-section">
-    <div class="desafios-cards">
-      <h2>Galeria de talentos</h2>
-      <p>Explore a diversidade de estilos e talentos , uma experiencia visual  que inspira criatividade  e celebra  a imaginação sem limites  </p>
+<!-- ─── DESAFIOS ─── -->
+<section class="desafios-section" id="desafios">
+  <div class="container">
+    <div class="desafios-header-row">
+      <div>
+        <div class="section-tag">Desafios DPB</div>
+        <h2 class="section-title">Explore a diversidade<br>de estilos e talentos</h2>
+        <p class="section-sub">Uma experiência visual que inspira criatividade e celebra a imaginação sem limites.</p>
+      </div>
+      <a href="#" class="btn btn-outline">Ver todos →</a>
     </div>
-  </section>
 
-  <!--Sessao de Inspirações-->
+    <div class="cards-grid">
+
+      <div class="challenge-card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?w=600&q=80" alt="1º Desafio" />
+          <div class="card-num">01 · 2025</div>
+          <div class="card-status open">Aberto</div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Prazo: 20/04/25 – 19:00
+          </div>
+          <div class="card-title">1º Desafio DPB 2025 — Imagem base: Girafa</div>
+          <div class="card-desc">Neste desafio, pedimos que usem a criatividade no Photoshop e façam o que quiserem
+            com esta imagem.</div>
+          <div class="card-footer">
+            <div class="card-votes">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+              </svg>
+              347 votos
+            </div>
+            <a href="#detail" class="btn btn-primary" style="padding:8px 20px;font-size:.8rem;">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="challenge-card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=600&q=80" alt="2º Desafio" />
+          <div class="card-num">02 · 2025</div>
+          <div class="card-status closed">Encerrado</div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Prazo: 15/03/25 – 19:00
+          </div>
+          <div class="card-title">2º Desafio DPB 2025 — Felino na névoa</div>
+          <div class="card-desc">Use sua criatividade para transformar esta imagem de felino em algo extraordinário
+            com suas habilidades.</div>
+          <div class="card-footer">
+            <div class="card-votes">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+              </svg>
+              512 votos
+            </div>
+            <a href="#" class="btn btn-outline" style="padding:8px 20px;font-size:.8rem;">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="challenge-card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1588516903720-8cbe3cc27b97?w=600&q=80" alt="3º Desafio" />
+          <div class="card-num">03 · 2025</div>
+          <div class="card-status closed">Encerrado</div>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Prazo: 10/02/25 – 19:00
+          </div>
+          <div class="card-title">3º Desafio DPB 2025 — Dragão medieval</div>
+          <div class="card-desc">Transforme a imagem base do castelo em uma cena épica de fantasia com dragões e
+            magia.</div>
+          <div class="card-footer">
+            <div class="card-votes">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+              </svg>
+              628 votos
+            </div>
+            <a href="#" class="btn btn-outline" style="padding:8px 20px;font-size:.8rem;">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="#" class="page-btn arrow">&#8592;</a>
+      <a href="#" class="page-btn">1</a>
+      <a href="#" class="page-btn active">2</a>
+      <a href="#" class="page-btn">3</a>
+      <span class="page-dots">…</span>
+      <a href="#" class="page-btn">12</a>
+      <a href="#" class="page-btn">13</a>
+      <a href="#" class="page-btn">14</a>
+      <a href="#" class="page-btn arrow">&#8594;</a>
+    </div>
+
+  </div>
+</section>
   <newsletter-form></newsletter-form>
-
-
-  <!--Sessao adicionado recentemente carrocel de imagens -->
-  <section>
-    <div class="carrocel-section">
-      <h2>Adicionados recentemente</h2>
-      <p>Descubra as novidades mais quentes : obras recém adicionadas ao mundo DPB. Desafio Photoshop Brasil.</p>
-
-    </div>
-  </section>
-</main>
